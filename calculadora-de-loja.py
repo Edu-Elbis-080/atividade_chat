@@ -14,18 +14,9 @@ print("valor total:" + str(valor_total))
 print("valor com desconto de:" + str(valor_com_desconto))
 print("valor final:" + str(valor_total - valor_com_desconto))
 
-import time
-import sys
-
-def digitar(texto):
-    for char in texto:
-        sys.stdout.write(char)
-        sys.stdout.flush()
-        time.sleep(0.1)
-
 senha = 1538
-input(print("insira a senha para finalizar a compra: "))
-if print(digite a senha) senha == 1538:
+input(print("insira a senha para finalizar a compra: " )), int("senha")
+if print("digite a senha") == 1538:
     print("compra finalizada com sucesso!")
 else:    print("senha incorreta, tente novamente.")
 
